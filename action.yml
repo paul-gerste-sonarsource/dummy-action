@@ -1,6 +1,3 @@
 runs:
-  using: 'composite'
-  steps:
-    - name: Dummy
-      shell: bash
-      run: echo dummy
+  using: "node20"
+  main: "index.js"
