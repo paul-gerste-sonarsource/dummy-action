@@ -1,0 +1,6 @@
+runs:
+  using: 'composite'
+  steps:
+    - name: Dummy
+      shell: bash
+      run: echo dummy
