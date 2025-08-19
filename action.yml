@@ -4,5 +4,5 @@ runs:
   #   - name: Dummy
   #     shell: bash
   #     run: echo dummy
-  using: docker
+  using: plugin
   image: Dockerfile
